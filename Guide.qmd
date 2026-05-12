@@ -25,3 +25,35 @@ Start by creating a new project folder. In this case, we will use the folder "Ex
 
 The output of "example.qmd" will be the html file "example.html". This file will be generated when we render the Quarto document.
 
+# 2. Initialise a Git Repository
+
+Open the terminal in your project folder and run:
+
+```bash
+git init
+```
+
+Check the repository status:
+
+```bash
+git status
+```
+
+You should see example.qmd listed as an untracked file.
+
+Now stage and commit it:
+
+```bash
+git add .
+git commit -m "Initial commit with example Quarto document"
+```
+
+## What’s happening:
+
+git add prepares files for saving
+git commit records a snapshot of your project
+
+## Why this matters:
+
+Commits allow you to track changes over time and revert if needed.
+
