@@ -1,0 +1,27 @@
+---
+title: "Assignment 2 – Git & GitHub Workflow Guide"
+format: 
+    pdf: 
+        theme: cerulean
+    html: 
+        theme: cerulean
+---
+
+# Overview
+
+This guide demonstrates how to set up a reproducible project using Git and GitHub. It walks through repository creation, branching, merging, resolving conflicts, and managing commit history.
+
+Each step includes:
+
+- the command used  
+- what it does  
+- why it is important  
+
+---
+
+# 1. Create a Quarto Project
+
+Start by creating a new project folder. In this case, we will use the folder "Example". Inside this folder, create a new Quarto document named "example.qmd". This will be the main file for our project.
+
+The output of "example.qmd" will be the html file "example.html". This file will be generated when we render the Quarto document.
+

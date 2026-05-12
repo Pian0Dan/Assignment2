@@ -1,0 +1,12 @@
+---
+title: "Example Document"
+format: html
+---
+
+# Introduction
+
+This is a test document.
+
+```{r}
+plot(cars)
+```
