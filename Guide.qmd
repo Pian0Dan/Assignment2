@@ -57,3 +57,17 @@ git commit records a snapshot of your project
 
 Commits allow you to track changes over time and revert if needed.
 
+# 3. Link to GitHub Repository
+
+Create a new repository on GitHub, then link it:
+
+```bash
+git remote add origin <repository-URL>
+git branch -M main
+git push -u origin main
+```
+
+## Why this matters:
+
+GitHub stores your project remotely, acting as a backup and enabling collaboration.
+
