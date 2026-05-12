@@ -25,6 +25,10 @@ Start by creating a new project folder. In this case, we will use the folder "Ex
 
 The output of "example.qmd" will be the html file "example.html". This file will be generated when we render the Quarto document.
 
+It will look like this:
+
+![example.html](Renders/Example1.png)
+
 # 2. Initialise a Git Repository
 
 Open the terminal in your project folder and run:
@@ -71,3 +75,36 @@ git push -u origin main
 
 GitHub stores your project remotely, acting as a backup and enabling collaboration.
 
+# 4. Create and Use a Branch
+
+Create a new branch:
+
+```bash
+git checkout -b testbranch
+```
+
+Modify example.qmd by adding:
+
+# Additional Content
+
+This section was added in the test branch.
+
+```{r}
+hist(cars$speed)
+```
+
+Commit the changes:
+
+```bash
+git add .
+git commit -m "Added histogram section on testbranch"
+git push -u origin testbranch
+```
+
+## What’s happening:
+
+You are working on a separate version of the project.
+
+## Why this matters:
+
+Branches allow experimentation without affecting the main version.
